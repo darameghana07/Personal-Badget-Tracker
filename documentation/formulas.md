@@ -2,13 +2,14 @@ Excel Formulas Used
 
 This section explains the Excel formulas used in the Personal Finance Tracker to calculate income, expenses, balance, category-wise expenses, and expense transaction count.
 
-1. Total Income
+**1. Total Income**
 
 Purpose: Calculates the total income recorded in "TransactionSheet".
 
 Excel Formula:
-
+---
 =SUMIF(TransactionSheet!D:D,"Income",TransactionSheet!E:E)
+---
 
 How it works:
 
@@ -20,13 +21,14 @@ Result: Displays the total income.
 
 ---
 
-2. Total Expenses
+**2. Total Expenses**
 
 Purpose: Calculates the total expenses recorded in "TransactionSheet".
 
 Excel Formula:
-
+---
 =SUMIF(TransactionSheet!D:D,"Expense",TransactionSheet!E:E)
+---
 
 How it works:
 
@@ -37,7 +39,7 @@ Result: Displays the total expenses.
 
 ---
 
-3. Remaining Balance
+**3. Remaining Balance**
 
 Purpose: Calculates the money remaining after deducting expenses from income.
 
@@ -55,13 +57,15 @@ Result: Displays the remaining balance.
 
 ---
 
-4. Category-wise Expenses
+**4. Category-wise Expenses**
 
 Purpose: Calculates the total expenses for each category.
 
 Excel Formula:
 
+---
 =SUMIFS(TransactionSheet!E:E,TransactionSheet!C:C,A2,TransactionSheet!D:D,"Expense")
+---
 
 How it works:
 
@@ -76,13 +80,15 @@ Note: This formula uses "SUMIFS" to ensure that only transactions marked as "Exp
 
 ---
 
-5. Expense Transaction Count
+**5. Expense Transaction Count**
 
 Purpose: Counts the number of transactions marked as expenses.
 
 Excel Formula:
 
+---
 =COUNTIF(TransactionSheet!D:D,"Expense")
+---
 
 How it works:
 
@@ -100,7 +106,7 @@ C| Category
 D| Type (Income/Expense)
 E| Amount
 
-Important Notes
+**Important Notes**
 
 - Ensure the worksheet name is exactly "TransactionSheet".
 - Verify that the column references match your actual Excel file.
