@@ -6,6 +6,7 @@ Calculates the total income recorded in the TransactionSheet.
 
 =SUMIF(TransactionSheet!D:D,"Income",TransactionSheet!E:E)
 
+
 2. Total Expenses
 
 Calculates the total expenses recorded in the TransactionSheet.
