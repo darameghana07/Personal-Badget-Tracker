@@ -8,14 +8,14 @@ The project transforms transaction records into meaningful financial summaries u
 **📸 Dashboard Preview**
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Personal Budget Tracker Dashboard] (./dashboard-preview.png)
+![Personal Budget Tracker Dashboard] (dashboard-preview.png)
 
 **🧾 Transactions Sheet**
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Transactions sheet contains the raw data used for analysis, including the date, description, category, transaction type, and amount.
 
-![Transactions Sheet] (./Transactions-preview.png)
+![Transactions Sheet] (Transactions-preview.png)
 
 **✨ Key Features**
 ------------------------------------------------------------------------------------------------------------------------------------------------------
