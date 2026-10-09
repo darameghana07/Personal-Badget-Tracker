@@ -1,4 +1,5 @@
 **📊 Personal Budget Tracker | Excel Dashboard**
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 An Excel-based data analytics project designed to track income, monitor expenses, and understand personal spending patterns through a visual dashboard.
 
