@@ -49,7 +49,10 @@ Calculation:
 
 Example Excel Formula:
 
+---
+
 =B2-B3
+---
 
 Assumption: Cell "B2" contains Total Income and cell "B3" contains Total Expenses. Adjust the cell references to match your worksheet.
 
