@@ -102,6 +102,10 @@ The objective of this project is to apply Excel data analysis techniques to ever
 - Interactive filters for categories and dates.
 - Additional insights into spending trends.
 
+  Linkedin
+  --------
+ [click here to view the post](https://lnkd.in/p/gu9RCY5Q)
+
 ---
 
 Project Category: Data Analytics
